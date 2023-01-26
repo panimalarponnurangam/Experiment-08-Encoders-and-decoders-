@@ -55,15 +55,16 @@ D7 = X Y Z
 ## Figure -04 8 to 3 Decoder implementation 
 
 ### Procedure
-/* write all the steps invloved */
-
-
+1.create module encoder decoder
+2.get inputs outputs for encoder decoders
+3.perform or operation for encoder and logic fordecoder
+4.perform rtl logic and get waveform
 
 ### PROGRAM 
 /*
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: panimalar.p
+RegisterNumber:  22009107
 */
 ~~~
 module encoder(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
@@ -92,22 +93,29 @@ endmodule
 
 
 
+![Screenshot (196)](https://user-images.githubusercontent.com/121490826/214824697-46c226e4-e6b5-4411-9a5c-0715e6702b69.png)
 
 
 
+![Screenshot (167)](https://user-images.githubusercontent.com/121490826/214824391-6b8350bd-caa8-4901-ac4b-7beb106b5648.png)
 
 
 ### TIMING DIGRAMS  
+![Screenshot (168)](https://user-images.githubusercontent.com/121490826/214824502-9c44547f-4f35-42c9-baff-1e5e49ee2dbe.png)
 
 
 
+![Screenshot (195)](https://user-images.githubusercontent.com/121490826/214824298-400834ae-5831-4b1e-8f2b-5857316cdb85.png)
 
 
 ### TRUTH TABLE 
 
+![Screenshot (200)](https://user-images.githubusercontent.com/121490826/214825134-552aa849-cf46-4ec6-9bc0-94c70abd58a5.png)
 
 
+![Screenshot (199)](https://user-images.githubusercontent.com/121490826/214825154-f2915de8-a6f7-4fb6-994e-038fb118a84e.png)
 
 
 
 ### RESULTS 
+Thus the program to desing encoder decoder is done.
